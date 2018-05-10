@@ -13,7 +13,7 @@ guard :shell do
   watch(%r{^Gemfile|Gemfile.lock$}) { system("bundle-audit") }
 end
 
-guard "livereload", host: "railsgoat.dev", port: "35727" do
+guard "livereload" do
   watch(%r{app/views/.+\.(erb|haml|slim)$})
   watch(%r{app/helpers/.+\.rb})
   watch(%r{public/.+\.(css|js|html)})

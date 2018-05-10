@@ -22,11 +22,11 @@ gem "responders" #For Rails 4.2 # LOCKED DOWN
 gem "ruby-prof"
 gem "sass-rails"
 gem "simplecov", require: false, group: :test
-gem "sqlite3"
+gem "pg"
 gem "therubyracer"
 gem "turbolinks"
 gem "uglifier"
-gem "unicorn"
+gem "puma"
 
 # Add SMTP server support using MailCatcher
 # NOTE: https://github.com/sj26/mailcatcher#bundler
