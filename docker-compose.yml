@@ -15,6 +15,7 @@ services:
       - RAILS_ENV=development
       - PORT=3000
       - DISABLE_DATABASE_ENVIRONMENT_CHECK=1
+      - POSTGRES_HOST=db
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
     working_dir: /myapp
